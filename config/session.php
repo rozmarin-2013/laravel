@@ -81,7 +81,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | When using the "database" session driver, you may specify the table to
-    | be used to store sessions. Of course, a sensible default is defined
+    | be used to Store sessions. Of course, a sensible default is defined
     | for you; however, you're welcome to change this to another table.
     |
     */
@@ -94,14 +94,14 @@ return [
     |--------------------------------------------------------------------------
     |
     | When using one of the framework's cache driven session backends, you may
-    | define the cache store which should be used to store the session data
+    | define the cache Store which should be used to Store the session data
     | between requests. This must match one of your defined cache stores.
     |
     | Affects: "dynamodb", "memcached", "redis"
     |
     */
 
-    'store' => env('SESSION_STORE'),
+    'Store' => env('SESSION_STORE'),
 
     /*
     |--------------------------------------------------------------------------
