@@ -76,8 +76,9 @@ Laravel backend runs inside Docker container (`app`). Routes are exposed accordi
 
 ### 4. Run frontend (React + Inertia + Tailwind) for develop
 
-npm i
-npm run dev
+npm i (for first install app)
+npm run dev (for develop)
+npm run build (for deploy)
 
 This runs Vite in watch mode.  
 Open the app in your browser at `http://localhost:8000` (Vite dev server).
